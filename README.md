@@ -2,6 +2,10 @@
 
 This is a project to transcribe xkcd #2601, the April Fools post for 2022, to runnable logo code.
 
+It's done now (sans any bug fixes). Yay!
+
+Many thanks to everyone who contributed to getting this done.
+
 ### Running the code:
 
 There are options.
@@ -16,48 +20,31 @@ to the code right before you call xkcd.
 
 This is fun to watch, and renders very nicely, but is slow (at least on my laptop).
 
+#### xkcd 2601 Drawer
+
+Benedikt Werner made a dedicated [xkcd 2601 drawer](https://benediktwerner.github.io/xkcd-2601-drawer/) with a 
+zooming/panning feature, which is very fast and loads the latest version of the logo code from this repo. Click the 
+"Load latest" and "Draw" buttons, use scroll-up/down to zoom in/out, click-and-drag to pan around.
+
 #### makesvg.py
 
 There's also now a python script to generate an svg, which might be of use.
 
-#### FMSLogo
+#### FMSLogo or similar
 
-To quickly run the code again and again to check the commits as they come in, I'm currently
-using FMSLogo, which is windows only, sadly. But it might also run on your native logo
+To quickly run the code again and again to check the commits as they came in, I used
+FMSLogo, which is windows only, sadly. But it might also run on your native logo
 variant of choice.
-
-If you know of a better fast-rendering, multi-platform logo variant that runs
-this code as is or close to it, feel free to file a bug report with that info.
 
 To run this code in FMSLogo, open the file, then in the console, type **xkcd**.
 
-To open the file for editing in FMSLogo, you press the inscrutable "Edall"
-button. You must then save and close your edit before running it again, or
-highlight lines in the editor and hit ctrl-R to run them immediately.
-
-Like I said, any good, fast alternatives to this logo interpreter are welcome.
-
 ### Aiding transcription
 
-If you want to aid transcription, take a look at the code to get a sense of what
-things should look like. Make what you write look like that. Claim a time period in
-the [file](https://xkcd.com/2601/radio.mp3) (in chunks of 10 minutes) with a bug report.
-File your transcription with a pull request.
+The transcription is complete! But if you see anything wrong, please file a bug report!
 
-In the pull request, start and end your contribution with a comment showing the time, and
-add additional timestamps every 5 minutes or so, which will make it easier to fix transcription
-bugs. They should look like e.g.
+### Transcription complete!
 
-**; NOTE: [00:40:00]**
+![](screens/xkcd2601.gif)
 
-If you don't know how things should be typed out, check the current code or some logo docs.
-[This is what I've been using.](http://people.eecs.berkeley.edu/~bh/usermanual)
+![transcription complete](https://github.com/theinternetftw/xkcd2601/raw/main/screens/xkcd2601.png)
 
-Try to run your code before submitting by sticking it at the end of what we already have. Make sure it looks sane.
-
-If you don't have a github account and want to help, you can message me on reddit if you
-have an account there, and I'll update the bugs and such accordingly.
-
-### First 200 minutes of transcription:
-
-![first 200 minutes](https://github.com/theinternetftw/xkcd2601/raw/main/screens/first-200-minutes.png)
